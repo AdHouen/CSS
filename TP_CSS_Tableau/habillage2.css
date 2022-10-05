@@ -1,0 +1,24 @@
+#clients {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+}
+
+#clients td, #clients th {
+    border : 2px solid rgb(114, 194, 115);
+    padding : 10px;
+        
+}
+
+#clients th {
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 216, 139);
+}
+
+#clients td {
+    text-align: left;
+    padding-right: 50px;
+}
+
+#clients tr:nth-child(even){background-color: rgb(69, 141, 96)}
+
+#clients tr:hover{ background-color: rgb(199, 184, 184);}
